@@ -1,0 +1,63 @@
+body {
+  font-family:'Open Sans', sans-serif;
+  background-image: url('background.jpg');
+  background-size: contain;
+  color:white;
+}
+
+.container{
+  width: 1000px;
+  height: 800px;
+  background: rgba(0, 0, 0, 0.4);
+  margin: auto;
+  align:center;
+  border-radius: 25px;
+  margin-top: 50px
+}
+
+header{
+  text-align: center;
+  padding-top: 100px;
+  color: rgba(0, 255, 0);
+}
+
+.logo{
+  width: 250px
+}
+
+nav{
+  text-align: center;
+  background: rgba(0, 255, 0);
+  padding: 10px;
+  width: 800px;
+  margin: auto;
+}
+
+main{
+  width: 800px;
+}
+
+section{
+  margin-left: 90px;
+}
+
+.mediacarica{
+  width: 40%;
+  height: 30px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.pienacarica {
+  width: 75%;
+  height: 30px;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.pocacarica {
+  width: 20%;
+  height: 30px;
+  background-color: red;
+  border-radius: 5px;
+}
